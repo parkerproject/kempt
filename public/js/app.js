@@ -29,6 +29,7 @@ $(function () {
     } else if (!validateEmail(email)) {
       error.text('Enter valid email')
     } else {
+      self.text('..processing')
       $(form).submit()
     }
   })
