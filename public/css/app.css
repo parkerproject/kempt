@@ -1,0 +1,175 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.nav {
+    text-transform: uppercase;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.email {
+    width: 350px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.space {
+    margin-top: 60px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.green {
+    color: #3FB8AF;
+}
+
+h4 {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 1em;
+}
+
+header {
+    background: url(../images/header2.jpg) no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    border-bottom: 4px solid #C7F6FF;
+}
+
+header .container {
+    /*
+    background: url(../images/container.png) no-repeat;
+    background-size: cover;
+    color: black;
+*/
+}
+
+button {
+    background-color: #FF4136;
+    border: none!important;
+    box-shadow: 0 0 28px rgba(0, 0, 0, .2)!important;
+    border-radius: 0;
+    color: #000 !important;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    height: calc(3.75em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 3.75em;
+    outline: 0;
+    padding: 0 1.75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    margin: 0 auto;
+    width: 250px;
+}
+
+input {
+    color: black;
+}
+
+hr.small {
+    width: 78px;
+    margin: 10px auto 23px auto;
+    clear: both;
+    border-top: 2px solid #3FB8AF
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.list li {
+    list-style: none;
+    text-align: left;
+}
+
+.wrapper {
+    background: #C7E8F7;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.footer {
+    border-top: 1px solid #d7d7d7;
+    padding-top: 5px;
+}
+
+.zip_code-js{
+  width: 100px;
+}
+
+.email-js{
+  width: 300px;
+}
